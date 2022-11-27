@@ -1,5 +1,8 @@
+import java.util.Arrays;
+import java.util.Random;
+
 public class Baralho {
-    public Carta[] cartas = new Carta[52];
+    private final Carta[] cartas = new Carta[52];
     int numCartas;
     public Baralho(Carta[] cartas) {
         this.cartas[0] = new Carta("2", "♥");
@@ -62,28 +65,47 @@ public class Baralho {
 
     }
     public void embaralhar() {
+
+        Random r = new Random();
+
         for (int i = 0; i < numCartas; i++) {
             Carta temp = cartas[i];
-            int tempi = (int) (Math.random() * numCartas);
+            int tempi = r.nextInt(numCartas);
             cartas[i] = cartas[tempi];
             cartas[tempi] = temp;
             i++;
-
         }
     }
-    public Carta Darcarta() {
+    public Carta darCartas() {
         numCartas--;
         return cartas[numCartas];
     }
     public void imprimirBaralho() {
-        //Baralho t = new Baralho();
+
         int i = 0;
         while (i < numCartas) {
             System.out.print(cartas[i].getNaipe());
-            System.out.println(cartas[i].getNome());
+            System.out.print(cartas[i].getNome()+ " ");
             i++;
         }
 
     }
 
+    public void temCarta(Baralho baralho){
+
+        if (baralho == null) {
+            boolean temCarta = false;
+            System.out.print(temCarta);
+        }else {
+            boolean temCarta = true;
+            System.out.print(temCarta);
+        }
+
+    }
+    @Override
+    public String toString() {
+        return "Baralho{" +
+                "cartas=" + Arrays.toString(cartas) +
+                '}';
+    }
 }

@@ -1,0 +1,9 @@
+
+X
+java:S1854"=Remove this useless assignment to local variable "jogadores".(ı¼¯ùÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ô—¬
+I
+java:S1481".Remove this unused "jogadores" local variable.(ı¼¯ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ¡ªÉùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Åßéıÿÿÿÿ

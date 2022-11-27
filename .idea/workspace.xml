@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08f7da7-30c9-4797-a3e3-2f3d53afd104" name="Changes" comment="construção baralho">
-      <change afterPath="$PROJECT_DIR$/src/Jogo.java" afterDir="false" />
+    <list default="true" id="e08f7da7-30c9-4797-a3e3-2f3d53afd104" name="Changes" comment="construção baralho met tem carta">
+      <change afterPath="$PROJECT_DIR$/src/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mesa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Baralho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Baralho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +45,11 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Mesa">
     <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jogo" />
       <module name="desafio_jogo_de_poker" />
@@ -56,8 +57,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mesa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mesa" />
+      <module name="desafio_jogo_de_poker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mesa" />
         <item itemvalue="Application.Jogo" />
       </list>
     </recent_temporary>
@@ -74,7 +83,9 @@
       <workItem from="1669250310122" duration="217000" />
       <workItem from="1669416460268" duration="5694000" />
       <workItem from="1669490895853" duration="3168000" />
-      <workItem from="1669577014630" duration="5924000" />
+      <workItem from="1669577014630" duration="6938000" />
+      <workItem from="1669584440571" duration="3757000" />
+      <workItem from="1669588315379" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="inicio montagem desafio">
       <created>1669250142778</created>
@@ -90,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669422844348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="construção baralho">
+      <created>1669583026498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669583026498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="construção baralho met tem carta">
+      <created>1669583357016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669583357016</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicio montagem desafio" />
     <MESSAGE value="construção baralho" />
-    <option name="LAST_COMMIT_MESSAGE" value="construção baralho" />
+    <MESSAGE value="construção baralho met tem carta" />
+    <option name="LAST_COMMIT_MESSAGE" value="construção baralho met tem carta" />
   </component>
 </project>

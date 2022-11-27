@@ -1,0 +1,10 @@
+
+m	java:S127L"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+a
+java:S2583`"DChange this condition so that it does not always evaluate to "false"(È­Íª8“¶×ØË0
+J
+java:S1172"-Remove this unused method parameter "cartas".(šÁ£ç8èµÑØË0
+4
+java:S2119E"Save and re-use this "Random".(¡Å”¦
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(œó¾ª
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(›Ã‘±
