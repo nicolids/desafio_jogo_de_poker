@@ -10,7 +10,9 @@ public class Carta {
         this.naipe = naipe;
     }
 
-
+    public Carta criaCarta(String nome, String naipe){
+        return new Carta(nome,naipe);
+    }
     public String getNome() {
         return nome;
     }
@@ -25,5 +27,13 @@ public class Carta {
 
     public void setNaipe(String naipe) {
         this.naipe = naipe;
+    }
+
+    @Override
+    public String toString() {
+        return "Carta{" +
+                "nome='" + nome + '\'' +
+                ", naipe='" + naipe + '\'' +
+                '}';
     }
 }
